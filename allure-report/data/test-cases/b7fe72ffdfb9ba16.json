@@ -1,0 +1,83 @@
+{
+  "uid" : "b7fe72ffdfb9ba16",
+  "name" : "VMWare site availability verification",
+  "fullName" : "VMWare site availability verification",
+  "historyId" : "chromium Automation.spec.ts Test Suits - Servers Auto Provisioning VMWare site availability verification",
+  "time" : {
+    "start" : 1646841975786,
+    "stop" : 1646841985654,
+    "duration" : 9868
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d610f2d534c67de6",
+      "name" : "stdout",
+      "source" : "d610f2d534c67de6.txt",
+      "type" : "text/plain",
+      "size" : 620
+    }, {
+      "uid" : "6b36aabe77f14b09",
+      "name" : "stdout",
+      "source" : "6b36aabe77f14b09.txt",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "461fae462c1610cf",
+      "name" : "stdout",
+      "source" : "461fae462c1610cf.txt",
+      "type" : "text/plain",
+      "size" : 3
+    }, {
+      "uid" : "d3f45837f58f788d",
+      "name" : "stdout",
+      "source" : "d3f45837f58f788d.txt",
+      "type" : "text/plain",
+      "size" : 187
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "Automation.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test Suits - Servers Auto Provisioning"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7fe72ffdfb9ba16.json",
+  "parameterValues" : [ ]
+}

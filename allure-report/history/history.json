@@ -1,0 +1,42 @@
+{
+  "chromium Automation.spec.ts Test Suits - Servers Auto Provisioning VMWare site availability verification" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2080319ab4ef6a1c",
+      "status" : "failed",
+      "statusDetails" : "page.goto: net::ERR_NAME_NOT_RESOLVED at https://bc-advra-102.central.bccr.fi.cr/csp/gateway/portal/#/consumer\n=========================== logs ===========================\nnavigating to \"https://bc-advra-102.central.bccr.fi.cr/csp/gateway/portal/#/consumer\", waiting until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1646842095813,
+        "stop" : 1646842096876,
+        "duration" : 1063
+      }
+    } ]
+  },
+  "chromium Automation.spec.ts Test Suits - Servers Auto Provisioning Create: W2016-PROD-Capacitacion.local, Server" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e0768f3c1c74431",
+      "status" : "failed",
+      "statusDetails" : "page.goto: net::ERR_NAME_NOT_RESOLVED at https://bc-advra-102.central.bccr.fi.cr/csp/gateway/portal/#/consumer\n=========================== logs ===========================\nnavigating to \"https://bc-advra-102.central.bccr.fi.cr/csp/gateway/portal/#/consumer\", waiting until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1646842097887,
+        "stop" : 1646842098903,
+        "duration" : 1016
+      }
+    } ]
+  }
+}

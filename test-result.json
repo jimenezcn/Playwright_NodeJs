@@ -1,0 +1,240 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Playwright_NodeJs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chromium",
+        "testDir": "D:/Playwright_NodeJs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "Automation.spec.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/Playwright_NodeJs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "webkit",
+        "testDir": "D:/Playwright_NodeJs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "Automation.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "D:\\Playwright_NodeJs\\node_modules\\experimental-allure-playwright\\dist\\index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "D:/Playwright_NodeJs/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.19.2",
+    "workers": 6,
+    "webServer": null,
+    "__testGroupsCount": 3
+  },
+  "suites": [
+    {
+      "title": "Automation.spec.ts",
+      "file": "Automation.spec.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Test Suits - Servers Auto Provisioning",
+          "file": "Automation.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Open VMWare site to verify availability",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 8105,
+                      "stdout": [
+                        {
+                          "text": "Test Start\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "Automation.spec.ts",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "Create: W2016-PROD-APP-SINPE.CR, Server",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "timedOut",
+                      "duration": 30009,
+                      "error": {
+                        "message": "Pending operations:\n  - page.click at tests\\Automation.spec.ts:42:20\n\npage.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"text=Next\"\n============================================================",
+                        "stack": "Pending operations:\n  - page.click at tests\\Automation.spec.ts:42:20\n\npage.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"text=Next\"\n============================================================\n    at D:\\Playwright_NodeJs\\tests\\Automation.spec.ts:42:20"
+                      },
+                      "stdout": [
+                        {
+                          "text": "Test Start\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Playwright_NodeJs\\tests\\Automation.spec.ts",
+                        "column": 20,
+                        "line": 42
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "file": "Automation.spec.ts",
+              "line": 34,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Test Suits - Servers Auto Provisioning",
+          "file": "Automation.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Open VMWare site to verify availability",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 8420,
+                      "stdout": [
+                        {
+                          "text": "Test Start\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "Automation.spec.ts",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "Create: W2016-PROD-APP-SINPE.CR, Server",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "timedOut",
+                      "duration": 30004,
+                      "error": {
+                        "message": "Pending operations:\n  - page.click at tests\\Automation.spec.ts:42:20\n\npage.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"text=Next\"\n============================================================",
+                        "stack": "Pending operations:\n  - page.click at tests\\Automation.spec.ts:42:20\n\npage.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"text=Next\"\n============================================================\n    at D:\\Playwright_NodeJs\\tests\\Automation.spec.ts:42:20"
+                      },
+                      "stdout": [
+                        {
+                          "text": "Test Start\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "D:\\Playwright_NodeJs\\tests\\Automation.spec.ts",
+                        "column": 20,
+                        "line": 42
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "file": "Automation.spec.ts",
+              "line": 34,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

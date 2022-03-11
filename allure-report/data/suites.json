@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "Automation.spec.ts",
+      "children" : [ {
+        "name" : "Test Suits - Servers Auto Provisioning",
+        "children" : [ {
+          "name" : "VMWare site availability verification",
+          "uid" : "2080319ab4ef6a1c",
+          "parentUid" : "11b46218cc2a56f0372057d4d8db338e",
+          "status" : "failed",
+          "time" : {
+            "start" : 1646842095813,
+            "stop" : 1646842096876,
+            "duration" : 1063
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 15,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Create: W2016-PROD-Capacitacion.local, Server",
+          "uid" : "3e0768f3c1c74431",
+          "parentUid" : "11b46218cc2a56f0372057d4d8db338e",
+          "status" : "failed",
+          "time" : {
+            "start" : 1646842097887,
+            "stop" : 1646842098903,
+            "duration" : 1016
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 15,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "11b46218cc2a56f0372057d4d8db338e"
+      } ],
+      "uid" : "3d5752edf16181246277de069efa040c"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ]
+}

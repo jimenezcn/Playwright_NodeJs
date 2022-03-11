@@ -1,0 +1,7 @@
+Test Starts at: 2022-02-02 10_06_17
+Open VMWare site to verify availability, started
+
+Page loaded as expected
+Next button clicked
+Test: Open VMWare site to verify availability, finished
+

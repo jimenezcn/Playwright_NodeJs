@@ -1,0 +1,51 @@
+{
+  "uid" : "f8b5af627469d55e",
+  "name" : "Create: W2016-PROD-Capacitacion.local, Server",
+  "fullName" : "Create: W2016-PROD-Capacitacion.local, Server",
+  "historyId" : "chromium Automation.spec.ts Test Suits - Servers Auto Provisioning Create: W2016-PROD-Capacitacion.local, Server",
+  "time" : {
+    "start" : 1646841921575,
+    "stop" : 1646841951579,
+    "duration" : 30004
+  },
+  "status" : "broken",
+  "statusMessage" : "Pending operations:\n  - page.selectOption at tests\\Automation.spec.ts:141:16\n\npage.selectOption: Target closed\n=========================== logs ===========================\nwaiting for selector \"[id=\"input_General~Institucion\"]\"\n  selector resolved to visible <select aria-required=\"true\" _ngcontent-loh-c337=\"\" id=\"…>…</select>\n  selecting specified option(s)\n    did not find some options - waiting... \n    element is not enabled - waiting...\n    did not find some options - waiting... \n============================================================",
+  "statusTrace" : "Pending operations:\n  - page.selectOption at tests\\Automation.spec.ts:141:16\n\npage.selectOption: Target closed\n=========================== logs ===========================\nwaiting for selector \"[id=\"input_General~Institucion\"]\"\n  selector resolved to visible <select aria-required=\"true\" _ngcontent-loh-c337=\"\" id=\"…>…</select>\n  selecting specified option(s)\n    did not find some options - waiting... \n    element is not enabled - waiting...\n    did not find some options - waiting... \n============================================================\n    at D:\\Playwright_NodeJs\\tests\\Automation.spec.ts:141:16",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "Automation.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test Suits - Servers Auto Provisioning"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8b5af627469d55e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "VMWare site availability verification",
+    "uid" : "2080319ab4ef6a1c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1646842095813,
+      "stop" : 1646842096876,
+      "duration" : 1063
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 15,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Create: W2016-PROD-Capacitacion.local, Server",
+    "uid" : "3e0768f3c1c74431",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1646842097887,
+      "stop" : 1646842098903,
+      "duration" : 1016
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 15,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  } ]
+}

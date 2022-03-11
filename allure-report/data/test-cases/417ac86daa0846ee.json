@@ -1,0 +1,77 @@
+{
+  "uid" : "417ac86daa0846ee",
+  "name" : "VMWare site availability verification",
+  "fullName" : "VMWare site availability verification",
+  "historyId" : "chromium Automation.spec.ts Test Suits - Servers Auto Provisioning VMWare site availability verification",
+  "time" : {
+    "start" : 1646838020685,
+    "stop" : 1646838031284,
+    "duration" : 10599
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "97e3da6a2c62a1b0",
+      "name" : "stdout",
+      "source" : "97e3da6a2c62a1b0.txt",
+      "type" : "text/plain",
+      "size" : 620
+    }, {
+      "uid" : "70de952cfc73a11b",
+      "name" : "stdout",
+      "source" : "70de952cfc73a11b.txt",
+      "type" : "text/plain",
+      "size" : 1881
+    }, {
+      "uid" : "d2da1dd6098d2586",
+      "name" : "stdout",
+      "source" : "d2da1dd6098d2586.txt",
+      "type" : "text/plain",
+      "size" : 163
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "Automation.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test Suits - Servers Auto Provisioning"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "417ac86daa0846ee.json",
+  "parameterValues" : [ ]
+}

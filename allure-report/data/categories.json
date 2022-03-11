@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "page.goto: net::ERR_NAME_NOT_RESOLVED at https://bc-advra-102.central.bccr.fi.cr/csp/gateway/portal/#/consumer\n=========================== logs ===========================\nnavigating to \"https://bc-advra-102.central.bccr.fi.cr/csp/gateway/portal/#/consumer\", waiting until \"load\"\n============================================================",
+      "children" : [ {
+        "name" : "VMWare site availability verification",
+        "uid" : "2080319ab4ef6a1c",
+        "parentUid" : "8cab89e946b2007d1975cd96e0b359fc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646842095813,
+          "stop" : 1646842096876,
+          "duration" : 1063
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create: W2016-PROD-Capacitacion.local, Server",
+        "uid" : "3e0768f3c1c74431",
+        "parentUid" : "8cab89e946b2007d1975cd96e0b359fc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646842097887,
+          "stop" : 1646842098903,
+          "duration" : 1016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8cab89e946b2007d1975cd96e0b359fc"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

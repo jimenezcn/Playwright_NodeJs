@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3e0768f3c1c74431",
+  "name" : "Create: W2016-PROD-Capacitacion.local, Server",
+  "time" : {
+    "start" : 1646842097887,
+    "stop" : 1646842098903,
+    "duration" : 1016
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2080319ab4ef6a1c",
+  "name" : "VMWare site availability verification",
+  "time" : {
+    "start" : 1646842095813,
+    "stop" : 1646842096876,
+    "duration" : 1063
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
